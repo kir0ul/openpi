@@ -30,4 +30,4 @@ result = policy.infer(example)
 del policy
 
 print("Actions shape:", result["actions"].shape)
-print("Actions:", result["actions"])
+print("Actions:\n", result["actions"])
